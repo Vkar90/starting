@@ -27,11 +27,15 @@ p {
   font-family: Work Sans, sans-serif;
   font-size: 18px;
 }
-.colors {
+.colors,
+.fonts {
   border: 2px solid lightgray;
   padding-bottom: 50px;
 }
 
+.fonts {
+  margin-top: 40px;
+}
 .color-panel-maize {
   width: 300px;
   height: 80px;
@@ -73,4 +77,38 @@ p {
   margin-left: 20px;
   color: white;
   padding-bottom: 20px;
+}
+
+.font-panel {
+  padding: 0px 20px 10px;
+}
+
+.work-sans,
+.work-sans-regular,
+.work-sans-italic,
+.work-sans-bold {
+  font-family: Work Sans, serif;
+}
+
+.work-italic {
+  font-style: italic;
+}
+
+.work-bold {
+  font-weight: bold;
+}
+
+.source-code,
+.source-regular,
+.source-italic,
+.source-bold {
+  font-family: Source Code Pro, sans-serif;
+}
+
+.source-italic {
+  font-style: italic;
+}
+
+.source-bold {
+  font-weight: bold;
 }
